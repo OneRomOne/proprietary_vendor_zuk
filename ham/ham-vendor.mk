@@ -18,13 +18,10 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/zuk/ham/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
+    CNEService \
+    dpmserviceapp \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
-
-PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api
 
 $(call inherit-product, vendor/zuk/ham/ham-vendor-blobs.mk)
