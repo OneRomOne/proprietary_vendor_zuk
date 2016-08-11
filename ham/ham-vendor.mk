@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp \
     qcrilmsgtunnel \
+    QtiTetherService \
     shutdownlistener \
     TimeService
 
